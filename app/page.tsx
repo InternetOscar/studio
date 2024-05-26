@@ -10,7 +10,7 @@ const xanh_mono = Xanh_Mono({weight: ["400"], subsets: ["latin"]});
 
 export default function Home() {
   return (
-    <div className="md:flex flex-col md:m-0 md:m-5 md:w-screen m-6">
+    <div className="md:flex md:m-0 md:m-5 md:w-screen m-6">
       {/* <main className="grid grid-cols-3"> */}
       <div className="md:w-[1000px] mx-auto">
         <div className="mx-auto flex flex-col mt-8 z-0" style={inter.style}>
@@ -28,7 +28,7 @@ export default function Home() {
     </div>
 
     {/* </main> */}
-    <div id="contact" className="md:float-right md:top-0 *:font-light md:w-[400px] w-full md:p-4 md:mt-24 mt-12 *:block md:h-full md:border rounded-xl md:m-4 md:bg-stone-100 md:hover:bg-stone-50 border-stone-200 transition-all cursor-default z-10" style={martian_mono.style}>
+    <div id="contact" className="md:float-right md:top-0 *:font-light md:w-[400px] w-full md:p-4 md:mt-24 mt-12 *:block md:h-full md:border rounded-xl md:m-12 md:bg-stone-100 md:hover:bg-stone-50 border-stone-200 transition-all cursor-default z-10" style={martian_mono.style}>
       <h2 className="uppercase md:text-4xl text-3xl leading-none md:mb-10 mb-5" style={xanh_mono.style}>Let&apos;s Work Together</h2>
         <p>GET IN TOUCH</p>
         <p className="text-right">OSCAR DOBSON-BROWN</p>
