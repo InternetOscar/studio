@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Martian_Mono, Xanh_Mono } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
+
+const martian_mono = Martian_Mono({weight: ["300"], subsets: ["latin"]});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -16,7 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+
+      <body className="bg-stone-100" style={martian_mono.style}>{children}</body>
     </html>
   );
 }
