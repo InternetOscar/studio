@@ -18,8 +18,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-
-      <body className="bg-stone-100" style={martian_mono.style}>{children}</body>
+      <head>
+      <script defer src="https://cloud.umami.is/script.js" data-website-id="bf7de93c-e989-4708-80d9-8914eba0952f"></script>
+      </head>
+      <body className="bg-stone-100 antialiased" style={martian_mono.style}>{children}</body>
     </html>
   );
 }
